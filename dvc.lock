@@ -28,3 +28,23 @@ stages:
       hash: md5
       md5: adf63b6ce20f7ee74f63d5dabb325226
       size: 10829967
+  preprocess:
+    cmd: python src/preprocessing.py
+    deps:
+    - path: data/boston_house_prices.csv
+      hash: md5
+      md5: 7a71c16a224f1f351dbf19b08de0f7b2
+      size: 34723
+    - path: src/preprocessing.py
+      hash: md5
+      md5: 1b1f83bf0a5615372bb8b9715516bea6
+      size: 604
+    outs:
+    - path: data/processed_test.csv
+      hash: md5
+      md5: 183d0488d48e55c716a3660423332bd9
+      size: 7343
+    - path: data/processed_train.csv
+      hash: md5
+      md5: 279ae1bbed3175ceaf861c7f32ffabd1
+      size: 28853
