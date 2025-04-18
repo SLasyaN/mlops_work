@@ -10,7 +10,7 @@ class CreditScoringFlow(FlowSpec):
     model_run_id = Parameter(
         'model_run_id',
         help='The MLflow run ID from which to load the trained model',
-        default='9511d7dafa354bab83041fceaa4261ef'  # Replace as needed
+        default='9511d7dafa354bab83041fceaa4261ef'  
     )
 
     @step
