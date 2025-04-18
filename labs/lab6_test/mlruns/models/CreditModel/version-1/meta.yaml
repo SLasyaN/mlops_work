@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1744964127581
+current_stage: None
+description: null
+last_updated_timestamp: 1744964127581
+name: CreditModel
+run_id: 0731b82f0c354593bee1163578fb82f1
+run_link: null
+source: file:///Users/satyalasyanarendrapurapu/Spring/sp_mod2/mlops_work/labs/lab6_test/mlruns/0/0731b82f0c354593bee1163578fb82f1/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/satyalasyanarendrapurapu/Spring/sp_mod2/mlops_work/labs/lab6_test/mlruns/0/0731b82f0c354593bee1163578fb82f1/artifacts/model
+user_id: null
+version: 1
