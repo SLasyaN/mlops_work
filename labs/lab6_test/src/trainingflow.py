@@ -14,7 +14,7 @@ class CreditTrainFlow(FlowSpec):
     @step
     def start(self):
         # Set MLflow tracking configuration
-        mlflow.set_tracking_uri("http://127.0.0.1:5006")  # Ensure MLflow server is running here
+        mlflow.set_tracking_uri("http://127.0.0.1:5006") 
         mlflow.set_experiment("credit-training")
 
         # Load data
